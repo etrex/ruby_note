@@ -26,10 +26,12 @@ INT(10)的(10)當年是設計用來做排版的，現在已經沒用途。
 UTF-8 每個字需要 3 個 byte
 
 VARCHAR(100) 所需要的最大 byte 數 = 3 * 100 + 2 = 302 byte
+
 總共 100 個 UTF-8 的字元，需要額外的 2 個 byte 去儲存字串所需要的byte數 300
 
 ### 如何選擇用 CHAR 還是 VARCHAR？
 VARCHAR 彈性好
+
 VARCHAR 的 INDEX 永遠使用最大 BYTE 數空間來表示一個值
 
 ### 建議不要對 CHAR、VARCHAR 做 INDEX
