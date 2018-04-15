@@ -195,3 +195,31 @@ SELECT table1.col1, table2.col2 FROM table1 LEFT JOIN table2 USING (id);
 ```
 
 可是沒人在用
+
+## EXPLAIN
+
+使用時把分號改成 \G 可以把表格呈現改成條列式呈現
+
+```
+EXPLAIN SELECT * FROM products \G
+```
+
+輸出
+
+```
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: products
+   partitions: NULL
+         type: ALL
+possible_keys: NULL
+          key: NULL
+      key_len: NULL
+          ref: NULL
+         rows: 81
+     filtered: 100.00
+        Extra: NULL
+1 row in set, 1 warning (0.00 sec)
+```
+

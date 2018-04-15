@@ -17,7 +17,6 @@ CREATE INDEX idx_1 (a, b, c);
 如果要查詢的資料是連續區間，就會採用 index
 所以只能在最後一個條件做範圍查詢
 
-
 #### 對以下 query 有幫助
 WHERE a = 1 AND b = 2 AND c < 3;
 WHERE a = 1 AND b = 2 AND c = 3;
@@ -56,3 +55,6 @@ SELECT col1, col2 FROM table WHERE a = 1 AND b = 2 AND c = 3;
 ## 全文檢索
  GIN
  CJKV
+
+
+## Index 大小的限制

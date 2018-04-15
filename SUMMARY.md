@@ -12,5 +12,8 @@
   * [資料庫正規化](database/mysql/normalization.md)
   * [使用 bash 進入 MySQL](database/mysql/cmd.md)
   * [SQL 指令](database/mysql/sql.md)
+  * [資料型態](database/mysql/data_type.md)
   * [資料庫索引（Index）](database/mysql/index.md)
+  * [SQL 分析](database/mysql/explain.md)
   * [交易（Transaction）](database/mysql/transaction.md)
+  * [常見的效能問題](database/mysql/faq.md)
