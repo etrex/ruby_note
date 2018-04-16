@@ -17,3 +17,5 @@
   * [SQL 分析](database/mysql/explain.md)
   * [交易（Transaction）](database/mysql/transaction.md)
   * [常見的效能問題](database/mysql/faq.md)
+* [數學](math/readme.md)
+  * [Katex](math/katex.md)
