@@ -19,3 +19,4 @@
   * [常見的效能問題](database/mysql/faq.md)
 * [數學](math/readme.md)
   * [Katex](math/katex.md)
+  * [Group](math/algebra/group.md)
