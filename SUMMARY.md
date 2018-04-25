@@ -6,6 +6,8 @@
 * [Spree](gems/spree/readme.md)
   * [js 覆寫](gems/spree/js/override_js.md)
   * [分類的排序](gems/spree/taxonomy/change_order.md)
+  * [Order 後台](gems/spree/order/readme.md)
+  * [新增付款方式](gems/spree/order/customize.md)
 * [MySQL](database/mysql/readme.md)
   * [歷史](database/mysql/history.md)
   * [儲存引擎](database/mysql/store_engine.md)
