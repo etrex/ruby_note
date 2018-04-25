@@ -38,10 +38,16 @@ Spree 本身有一個 PaymentMethod 類別，這是一個 Model，有對應的�
 
 ## Autocapture
 當 PaymentMethod 的 autocapture = true ，結帳時會呼叫 PaymentMethod 中的 purchase
+
 當 PaymentMethod 的 autocapture = false ，結帳時會呼叫 PaymentMethod 中的 authorize
+
 一個成功的 purchase 會讓 payment state 變成 completed
+
 一個成功的 authorize 會讓 payment state 變成 padding
+
 在 padding 狀態呼叫 capture 會讓 payment state 變成 completed
+
+所以我們要設定 autocapture = false
 
 ### Preference
 
