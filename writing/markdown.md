@@ -7,3 +7,7 @@ Flowchart
 
 shift + command + V
 
+## chart & graph 支援
+
+https://www.sharelatex.com/learn/Pgfplots_package
+https://rmarkdown.rstudio.com/
