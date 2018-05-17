@@ -10,6 +10,7 @@
 * [Spree](gems/spree/readme.md)
   * [導覽列上的購物車 view 客製化](gems/spree/cart/cart_view_customize.md)
   * [結帳](gems/spree/checkout/readme.md)
+  * [修改結帳流程](gems/spree/checkout/dsl.md)
   * [js 覆寫](gems/spree/js/override_js.md)
   * [Order 後台](gems/spree/order/readme.md)
   * [新增付款方式](gems/spree/order/customize.md)

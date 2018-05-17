@@ -55,7 +55,7 @@ https://logistics-stage.ecpay.com.tw/Express/map?MerchantID=2000132&MerchantTrad
 
 即可開啟串接頁面，其結果將顯示於 https://etrex-debug.herokuapp.com/http_requests
 
-#### 店到店(B2B)全家
+#### 店到店(C2C)全家
 在瀏覽器輸入以下網址：
 
 https://logistics-stage.ecpay.com.tw/Express/map?MerchantID=2000933&MerchantTradeNo=Ecpay_1234&LogisticsType=CVS&LogisticsSubType=FAMIC2C&IsCollection=N&ServerReplyURL=https%3A%2F%2Fetrex-debug.herokuapp.com%2Fhttp_requests%2Fcreate%3Fa%3D1&ExtraData=kamigo&Device=0&HashKey=XBERn1YOvpM9nfZc&HashIV=h1ONHk4P4yqbl5LK

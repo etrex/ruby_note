@@ -37,8 +37,6 @@ Spree assumes the list of shipping methods to be dependent on the shipping addre
 # 訂單狀態
 由 state machines 管理：https://github.com/state-machines/state_machines
 
-state machines 定義了 next 方法作為狀態之間的切換。
-
 在 Spree::Order::Checkout 中使用了 state_machine。
 
 Spree::Order::Checkout 作為 state_machine 的包裝，提供了以下方法：
