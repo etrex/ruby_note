@@ -93,3 +93,19 @@ end
 ```
 
 在 from_payment 的最後一行加上 `self.errors.empty?` 可以確保當 order 出錯的時候會進入錯誤處理流程。
+
+
+# to_delivery 做的事
+
+- 刪除所有的 shipments 之後
+  - 對所有 line_item 建立對應的 inventory_units
+    - 根據 stock_locations 來建立新的 shipments
+      - Coordinator
+      - InventoryUnitBuilder
+      - Packer
+      -   Package
+      -     ContentItem
+      - Prioritizer
+      -   Adjuster
+      - Estimator
+
