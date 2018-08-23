@@ -66,5 +66,5 @@
 [Telegram Privacy Mode 說明文件](https://core.telegram.org/bots#privacy-mode)
 
 ## 參考文件
-[Telegram Bot 相關說明](https://core.telegram.org/bots)
-[Telegram Bot API 相關說明](https://core.telegram.org/bots/api)
+- [Telegram Bot 相關說明](https://core.telegram.org/bots)
+- [Telegram Bot API 相關說明](https://core.telegram.org/bots/api)
