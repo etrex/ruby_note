@@ -32,7 +32,3 @@ Rake::Task['spree_auth:admin:create'].invoke
 新增出貨方式：全家店到店/c2c
 
 新增Option Type：size
-新增商品：
-編輯商品：
-  option type
-  上傳圖片

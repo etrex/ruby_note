@@ -1,5 +1,16 @@
 # 使用 bash 去操作 MySQL
 
+檢查本機 mysql server 是否正在執行
+```bash
+brew services list
+```
+
+執行本機 mysql server
+```bash
+brew services start mysql
+```
+
+登入 mysql server
 ```bash
 mysql -u root -p
 ```
@@ -11,7 +22,7 @@ mysql -u root -p
 Enter password:
 ```
 
-此時要輸入密碼，輸入正確的密碼後會看到：
+此時要輸入密碼，預設密碼應該是空的。在正確輸入密碼後會看到：
 
 ```bash
 Welcome to the MySQL monitor.  Commands end with ; or \g.
