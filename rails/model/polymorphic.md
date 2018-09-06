@@ -96,7 +96,7 @@ Indexes:
 
 同時 A 模型中應該要寫這樣的關聯:
 
-```
+```
 class A < ApplicationRecord
   belongs_to :b, polymorphic: true
 end
@@ -104,7 +104,7 @@ end
 
 而 B 模型則是寫:
 
-```
+```
 class B1 < ApplicationRecord
   has_many :a, as: :b
 end
