@@ -7,6 +7,7 @@
   * [載入自訂的 config 檔](rails/config.md)
   * [全形轉半形](to_half.md)
   * [output_safety](rubocop/output_safety.md)
+  * [STI](rails/model/single_table_inheritance.md)
   * [多態關聯](rails/model/polymorphic.md)
 * [Spree](gems/spree/readme.md)
   * [導覽列上的購物車 view 客製化](gems/spree/cart/cart_view_customize.md)
