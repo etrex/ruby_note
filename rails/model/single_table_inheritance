@@ -18,3 +18,7 @@ rails g model child_table_name --parent parent_table_name
 ```
 
 
+## 模型的切換
+```
+
+```

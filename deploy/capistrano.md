@@ -37,4 +37,4 @@ bundle exec cap staging config:pull
 cap staging passenger:restart
 #或
 bundle exec cap staging passenger:restart
-```
+```p
