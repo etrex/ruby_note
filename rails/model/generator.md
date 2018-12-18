@@ -1,0 +1,1 @@
+https://railsguides.net/advanced-rails-model-generators/

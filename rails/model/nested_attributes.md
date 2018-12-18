@@ -10,6 +10,14 @@ class A < ActiveRecord::Base
 end
 ```
 
+儲存時
+
+```
+params = { bs_attributes: [{ field_in_b: 'qq' }] }
+a = A.create(params)
+a.bs
+```
+
 ## view
 
 在 view 中使用 `fields_for` 來創造第二層的 form

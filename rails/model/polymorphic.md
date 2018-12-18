@@ -4,7 +4,7 @@
 
 原理:
 
-假設存在 model A、B，一般關聯是這樣寫:
+假設存在 model A、B，一般關聯是這樣寫:
 
 ```
 class A < ApplicationRecord
@@ -66,8 +66,8 @@ rails g model a b_id:integer b_type
 class CreateAs < ActiveRecord::Migration[5.2]
   def change
     create_table :as do |t|
-      t.integer :b
-      t.string :
+      t.integer :b_id
+      t.string :b_type
 
       t.timestamps
     end
