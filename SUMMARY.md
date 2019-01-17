@@ -9,6 +9,7 @@
   * [output_safety](rubocop/output_safety.md)
   * [STI](rails/model/single_table_inheritance.md)
   * [多態關聯](rails/model/polymorphic.md)
+  * [自動登出](rails/auto_signout.md)
 * [Spree](gems/spree/readme.md)
   * [導覽列上的購物車 view 客製化](gems/spree/cart/cart_view_customize.md)
   * [結帳](gems/spree/checkout/readme.md)
