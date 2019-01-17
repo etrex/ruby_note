@@ -2,11 +2,12 @@
 
 有兩個功能會影響自動登出時間。
 
-## devise 的 remember_me 功能
-如果在登入時選擇「記住我」則可以確保在時限內不會被自動登出，預設值為 2 週。
+- devise 的 remember_me
 
-## rails 的 session 功能
-session 確保用戶在持續使用的情況下不會被自動登出。
+  如果在登入時選擇「記住我」則可以確保在時限內不會被自動登出，預設值為 2 週。
+- rails 的 session
+
+  session 確保用戶在持續使用的情況下不會被自動登出。
 
 # devise 的 remember_me 功能
 
