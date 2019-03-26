@@ -6,8 +6,40 @@
 brew install redis
 ```
 
-# 開啟 Redis Server
+# Redis Server
+### 開啟
 
 ```bash
 redis-server
+```
+
+# Redis Client
+
+### 開啟
+
+```bash
+redis-cli
+```
+
+### 列出所有資料
+
+```
+keys *
+```
+
+### 寫入一筆資料
+
+set key value
+```
+set foo 1
+=> OK
+```
+
+### 讀取一筆資料
+
+get key
+
+```
+get foo
+=> "1"
 ```
