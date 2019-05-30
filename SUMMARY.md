@@ -2,6 +2,8 @@
 * [ruby](ruby/readme.md)
   * [文字/檔案編碼處理](ruby/string/encoding.md)
   * [產生亂數的各種方法](ruby/string/random.md)
+  * [如何寫一個 gem？](gems/create_a_gem.md)
+  * [如何開啟 .gem 檔？](gems/unpack.md)
 * [rails](rails/readme.md)
   * [各種 404 的方法](rails/response/response_404.md)
   * [在不同的頁面載入不同的 JS](rails/asset_pipeline.md)
