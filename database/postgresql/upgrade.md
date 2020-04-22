@@ -45,7 +45,7 @@ brew services restart postgresql
 
 停止
 ```
-brew service stop postgresql
+brew services stop postgresql
 ```
 
 查看是否運作中
@@ -107,6 +107,20 @@ initdb /usr/local/var/postgres -U postgres -E UTF-8 --locale en_US
 ```
 
 會指定這些參數而不使用預設值，是因為我需要從 postgres app 升級到 brew 上的 postgres，而這些是 postgres app 的預設值。
+
+## 建立預設的資料庫
+
+如果在連線至資料庫 `psql` 時遇到以下錯誤訊息：
+
+```
+psql: FATAL:  database 你的名字 does not exist
+```
+
+可以使用以下指令建立預設資料庫：
+
+```
+createdb
+```
 
 ## 資料庫升級
 
