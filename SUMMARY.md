@@ -1,4 +1,6 @@
 # Summary
+* [linux](linux/readme.md)
+  * [硬碟滿了怎麼辦？](linux/full_disk.md)
 * [ruby](ruby/readme.md)
   * [文字/檔案編碼處理](ruby/string/encoding.md)
   * [產生亂數的各種方法](ruby/string/random.md)
